@@ -1,0 +1,13 @@
+interval = 300
+splay = 30
+splay_first_run = 0
+log_level = 'warn'
+
+[chef_license]
+acceptance = "accept-no-persist"
+
+[automate]
+enable = true
+server_url = "${automate_url}"
+token = "${automate_token}"
+user = "${automate_user}"

@@ -1,0 +1,119 @@
+variable "azure_region" {
+  default = "eastus"
+}
+
+variable "azure_public_key_path" {
+}
+
+variable "azure_private_key_path" {
+}
+
+variable "azure_image_user" {
+  default = "azureuser"
+}
+
+variable "azure_image_password" {
+}
+
+variable "azure_sub_id" {
+}
+
+variable "azure_tenant_id" {
+}
+
+variable "application" {
+  default = "nationalparks"
+}
+
+variable "origin" {
+}
+
+variable "bldr_url" {
+  default = "https://bldr.habitat.sh"
+}
+
+variable "channel" {
+  default = "stable"
+}
+
+variable "group" {
+  default = "default"
+}
+
+variable "update_strategy" {
+  default = "at-once"
+}
+
+variable "update_condition" {
+  default = "track-channel"
+}
+
+////////////////////////////////
+// Tags
+
+variable "tag_customer" {
+}
+
+variable "tag_project" {
+}
+
+variable "tag_name" {
+}
+
+variable "tag_dept" {
+}
+
+variable "tag_contact" {
+}
+
+variable "tag_application" {
+}
+
+variable "tag_ttl" {
+  default = 4
+}
+
+variable "node_count" {
+  default = 1
+}
+
+variable "sleep" {
+  default = "60"
+}
+
+variable "automate_url" {
+}
+
+variable "automate_ip" {
+}
+
+variable "automate_token" {
+}
+
+variable "automate_user" {
+}
+
+variable "hab_install_opts" {
+  default = ""
+}
+
+variable "hab-sup-version" {
+  default = "core/hab-sup"
+}
+
+variable "event-stream-enabled" {
+  default = "false"
+}
+
+variable "event-stream-env-var" {
+  default = "Environment=\"HAB_FEAT_EVENT_STREAM=1\""
+}
+
+variable "event-stream-application" {
+  default = "national-parks "
+}
+
+variable "event-stream-environment" {
+  default = "demo"
+}
+

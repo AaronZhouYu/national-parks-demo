@@ -1,0 +1,7 @@
+results/
+.terraform
+*tfvars
+*tfstate*
+.kitchen
+.DS_Store
+terraform/chef-automate/azure/UpdateDisk.ps1
